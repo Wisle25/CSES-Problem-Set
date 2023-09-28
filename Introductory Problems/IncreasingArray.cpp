@@ -18,7 +18,7 @@ int main()
     for (uint32_t I = 0; I < N; ++I)
         cin >> X[I];
 
-    for (uint32_t I = 0; I < N; ++I)
+    for (uint32_t I = 0; I < N - 1; ++I)
     {
         if (X[I + 1] < X[I])
         {
